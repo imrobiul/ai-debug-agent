@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: { default: "AI Debug Agent – AI-Powered Website Debugging", template: "%s | AI Debug Agent" },
   description: "Automatically detect, explain, and fix website errors with AI. The smartest debugging and QA platform for developers.",
   keywords: ["AI debugging", "website scanner", "JavaScript errors", "Next.js debugging", "SaaS QA tool"],
+
   openGraph: {
     type: "website", siteName: "AI Debug Agent",
     title: "AI Debug Agent – AI-Powered Website Debugging",
@@ -22,7 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={inter.variable}>
       <body>
         <Navbar />
-        <main>{children}</main>
+        <main className="md:pl-56">{children}</main>
         <Footer />
       </body>
     </html>

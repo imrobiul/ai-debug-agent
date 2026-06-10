@@ -11,7 +11,7 @@ export default function Hero() {
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[900px] rounded-full bg-brand-500/4 blur-[140px]" />
         <div className="absolute top-1/2 right-1/4 w-[300px] h-[300px] rounded-full bg-emerald-400/3 blur-[80px]" />
-        <div className="absolute inset-0 bg-[linear-gradient(rgba(34,197,94,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(34,197,94,0.02)_1px,transparent_1px)] bg-[size:60px_60px]" />
+        <div className="absolute inset-0 bg-[linear-gradient(rgba(249,115,22,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(249,115,22,0.02)_1px,transparent_1px)] bg-[size:60px_60px]" />
       </div>
 
       <div className="max-w-5xl mx-auto text-center">
@@ -51,11 +51,11 @@ export default function Hero() {
 
         {/* Code snippet preview */}
         <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.4 }}
-          className="glass rounded-2xl p-6 max-w-2xl mx-auto text-left glow">
+          className="glass rounded-2xl p-6 max-w-2xl text-left glow">
           <div className="flex items-center gap-2 mb-4">
-            <div className="w-3 h-3 rounded-full bg-red-500/80" />
-            <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
-            <div className="w-3 h-3 rounded-full bg-brand-500/80" />
+            <div className="w-3 h-3 rounded-full bg-pink-500/80" />
+            <div className="w-3 h-3 rounded-full bg-pink-400/80" />
+            <div className="w-3 h-3 rounded-full bg-pink-300/80" />
             <div className="flex items-center gap-1.5 ml-2 text-slate-500 text-xs">
               <Terminal className="w-3 h-3" /> AI Debug Agent — scanner.js
             </div>
