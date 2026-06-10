@@ -27,7 +27,7 @@ const plans = [
     desc: "For agencies managing multiple clients.",
     features: ["Unlimited websites", "Team workspace", "All Pro features", "White-label reports", "Priority scanning", "API access", "Custom integrations", "Dedicated support", "1-year history", "SLA guarantee"],
     missing: [],
-    cta: "Start Free Trial", popular: false,
+    cta: "Contact Sales", popular: false,
   },
 ];
 
